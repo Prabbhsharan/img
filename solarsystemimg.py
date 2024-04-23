@@ -1,0 +1,13 @@
+import cv2
+img = cv2.imread("C:/Users/yoman/Desktop/python/c104assignment/solar-system.jpg")
+cv2.putText(img,"SUN",(20,220),cv2.FONT_HERSHEY_COMPLEX,1,color=(255,0,0))
+cv2.putText(img,"MERCURY",(100,190),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.putText(img,"VENUS",(190,270),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.putText(img,"EARTH",(290,270),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.putText(img,"MARS",(380,270),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.putText(img,"JUPITER",(550,350),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.putText(img,"SATURN",(770,300),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.putText(img,"URANUS",(970,300),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.putText(img,"NEPTUNE",(1100,300),cv2.FONT_HERSHEY_COMPLEX,0.5,color=(255,0,0))
+cv2.imshow("Solar_System",img)
+cv2.waitKey(0)
